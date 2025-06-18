@@ -17,7 +17,8 @@ const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '', // Replace with your MySQL password
-  database: 'akash', // Replace with your database name
+  database: 'akash', 
+  port: '3305'// Replace with your database name
 });
 
 // Connect to the database
